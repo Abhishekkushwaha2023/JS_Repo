@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    background-color:whitesmoke;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-align: justify;
+}
+h1{
+    border: 3px solid salmon;
+    border-radius:10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+input{
+    margin-left: 100px;
+    width: 300px;
+}
+select{
+    margin-left: 100px;
+    width: 100px;
+}
+.date{
+    width: 100px;
+}
+button{
+    float: right;
+   margin: 40px;
+   
+}
+header img{
+    border: 1px solid darkmagenta;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 30px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 113, 90);
+}
+nav{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align:center;
+}
+nav a{
+    padding:10px;
+
+}
+span{
+   margin-left: 100px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    width: 300px;
+}
+button:hover{
+    color: red;
+}
+

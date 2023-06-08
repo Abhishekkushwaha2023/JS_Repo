@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+h1{
+    border: 3px solid salmon;
+    border-radius: 10px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align:center;
+}
+nav a{
+    padding:10px;
+
+}
+header img{
+    border: 1px solid darkmagenta;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 30px;
+
+}
+header h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 113, 90);
+}
+h3{font-size: 30px;
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: white;
+}
+select{
+    width: 150px;
+}
+input{
+    width: 300px;
+}
+button{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}

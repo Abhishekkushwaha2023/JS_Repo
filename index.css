@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+header img{
+    border: 1px solid darkmagenta;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 30px;
+
+}
+header h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 113, 90);
+}
+nav{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align:center;
+}
+nav a{
+    padding:10px;
+
+}
+h2{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+    
+}
+.img1{
+    margin: 20px;
+    width: 400px;
+}
+.img2{
+    width: 400px;
+    margin-left: 60px;
+}
+form{
+    padding: 20px;
+    background-color: greenyellow;
+}
+@media screen and (max-width:600px){
+h2{
+        color:red; 
+    
+    }
+    h3{
+        color: royalblue;
+
+    }
+
+}
+@media all {
+   
+}
