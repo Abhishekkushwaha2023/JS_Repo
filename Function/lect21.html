@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture 21 </title>
+</head>
+<body>
+    
+</body><script>
+    // Normal way 
+// const product ={
+//     ItemName:'toy car',
+//     Price: 200,
+//     discount: 20,
+//     ItemCode: '111de'
+// }
 
+//Factory Function
+// function createProduct(ItemName, Price, discount, ItemCode) {
+//    return{
+// ItemName : 'Name',
+// Price : Price,
+// discount : discount,
+// ItemCode : 'itemcode'
+// }
+// }
+// const Basketball =createProduct('Basketball', 500, 10, 'DE11');
+
+//constructor Function.765
+
+// function Product(ItemName,Price,discount,ItemCode,discountValue) 
+// {
+//  this.ItemName = ItemName;
+//  this.Price = Price;
+//  this.discount = discount;
+//  this.ItemCode = ItemCode;
+//  this.SellingCost = function(discount,Price)
+// {
+//     return discount*Price/100;
+// }
+// }
+//  const Car = new Product('Supra' , 40000000 , 5 , 'SP21' );
+//  const Bike = new Product('Ninja' , 500000 , 1 , 'NI12' );
+//  const Cycle = new Product('Atlas Hero' ,15000 , 2 , 'AH69' );
+
+//Declaring a class
+class  Product
+ {
+    constructor(itemName, price, discount, productCode)
+    {
+        this.itemName = itemName;
+        this.price = price;
+        this.discount = discount;
+        this.productCode = productCode;
+    }
+ }
+let pencil = new Product('Pencil', 20, 2, 'PE20') 
+let pen = new Product('Pen', 100, 2, 'PEN10')
+let Notebook = new Product('Notebook', 120, 2, 'NB12')
+console.log(pencil)
+console.log(pen)
+console.log(Notebook)
+
+
+</script>
+
+</html>
