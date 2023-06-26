@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //arrays
+    let books =["The Rudest Book Ever","Super Man","Spider man","The letter to the God"];
+    console.log(books)
+    //function addition
+    function addition(a,b)
+    {
+    return a+b;
+    }
+    console.log(addition(true,false))
+    //Multiple functions
+    function bb (a,b,c)
+    {
+    return a+b+c;
+    }
+    console.log(bb("number",15,3))
+    function cc (a,b)
+    {
+        return a / b;
+    }
+    console.log(cc(12,'6'))
+    function ssss(a,b)
+    {
+        return a==b
+    }
+    console.log("true",true)
+    </script>
+</body>
+</html>.
+
