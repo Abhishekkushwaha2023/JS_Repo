@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,7 +75,7 @@ let names3 = [...names1,...names2]
 
 // For Loop
 for(let i = 0; i<names.length; i++ ){
-    console.log(names[i])
+    console.log(names[i]);
 }
 
 //For of 
@@ -81,8 +84,10 @@ for(let name of names){
 }
 
 // for-each
-names.forEach(function(name,index)){
-    // console.log(name,index);
+// names.forEach
+// function(name,index)
+{
+     console.log(name,index);
 }
 //Join
 let student = ['S','h','i','v','a']
@@ -105,10 +110,10 @@ let cities = [
 //     return city.population > 300000
 // }))
 
-console.log(cities.map(city => 
-   return city.population * 2
+console.log(cities.map(city =>
+    city.population * 2
  ))
 
 
 </script>
-</html>,,
+</html>
