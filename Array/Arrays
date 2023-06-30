@@ -83,9 +83,9 @@ for(let name of names){
 // for-each
 // names.forEach
 // function(name,index)
-{
-     console.log(name,index);
-}
+//{
+//     console.log(name,index);
+//}
 //Join
 let student = ['S','h','i','v','a']
 console.log(student.join('_'))
